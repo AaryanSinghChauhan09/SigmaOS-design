@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-design"
+tier = 2
+stability = "scaffold"
+language = "rust"
+description = "Design system: tokens, UI components, variants, theming"
+upstream = []
+
+[contract]
+provides = ["sigmadesign"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
